@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Novels</title>
+		<script type="text/javascript">
+    function goToNewPage()
+    {
+        var url = document.getElementById('list').value;
+        if(url != 'none') {
+            window.location = url;
+        }
+    }
+</script>
+		<style>
+			.head{ font-family: cursive;text-align: center;font-weight: bolder; }
+			.li{ font-family: fantasy;margin-left: 3%; }
+			.ki{ margin-left: 10%; }
+			.ri{ text-align: center; }
+			#list{ margin-left: 40%; }
+			.tg{ font-size: 100px; font-family: Algerian; }
+			.hello{ font-family: Forte; }
+			.bb{ background-image: url('bg.jpg');background-size: cover; }
+			a:link {
+    color: green;
+}
+
+a:visited {
+    color: black;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: yellow;
+}
+		</style>
+	</head>
+	<body class="bb">
+	<table cellspacing="10" cellpadding="10">
+		<tr><td><a href="11.html"><img src="book.jpg" class="ki"></a></td>
+			<td class="tg"><abbr title="online books">Online e-Books</abbr></td></tr></table>
+				<h1 class="li"><a href="11.html">read ANY Book.com</a></h1>
+	<form name="dropdown">
+		<select name="list" id="list" accesskey="target">
+			<option>Select Category</option>
+			<option value="2.html">Fiction</option>
+			<option value="3.html">Non-Fiction</option>
+			<option value="4.html">Love and Romance</option>
+			<option value="5.html">Western</option>
+			<option value="6.html">Mystrey</option>
+			<option value="7.html">Thriller</option>
+			<option value="8.html">Science Fiction</option>
+			<option value="9.html">Fantasy</option>
+			<option value="10.html">Vampire</option>
+		</select>
+		<input type=button value="Go" onclick="goToNewPage()">
+	</form>
+	<p><h1 class="hello">“It is only a novel... or, in short, only some work in which the greatest powers of the mind are displayed, in which the most thorough knowledge of human nature, the happiest delineation of its varieties, the liveliest effusions of wit and humour, are conveyed to the world in the best-chosen language.”<br>― Jane Austen, Northanger Abbey.</h1></p>
+	</body>
+</html>

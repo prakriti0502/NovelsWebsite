@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style>
+		div {
+  width: 240px;
+  height: 240px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.innerw {
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+
+.innerw2 {
+  left: 170px;
+  top: 0px;
+  overflow: hidden;
+}
+
+.inner {
+  left: -85px;
+  top: 130px;
+  background-color: palegreen;
+  z-index: 20;
+}
+
+.inner:hover {
+  background-color: green;
+}
+
+#midw1 {
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+#mid1 {
+  left: 170px;
+  top: 0px;
+}
+#midw2 {
+  left: 0px;
+  top: 0px;
+  overflow: hidden;
+}
+#mid2 {
+  left: 85px;
+  top: 130px;
+}
+#midw3 {
+  left: 170px;
+  top: 0px;
+  overflow: hidden;
+}
+#mid3 {
+  left: -85px;
+  top: 130px;
+}
+.mid {
+  background-color: lightblue;
+  z-index: 15;
+}
+.mid:hover {
+  background-color: blue;
+}
+
+
+#outer1 {
+  left: 0px;
+  top: 0px;
+}
+
+#outer2 {
+  left: 170px;
+  top: 0px;
+}
+#outer3 {
+  left: 85px;
+  top: 130px;
+}
+.outer {
+  background-color: lightcoral;
+  z-index: 10;
+}
+.outer:hover {
+  background-color: red;
+}
+	</style>
+</head>
+<div id="outer1" class="outer">
+</div>
+<div id="outer2" class="outer">
+</div>
+<div id="outer3" class="outer">
+</div>
+<div id="midw1">
+<div id="mid1" class="mid"></div>
+</div>
+<div id="midw2">
+<div id="mid2" class="mid"></div>
+</div>
+<div id="midw3">
+<div id="mid3" class="mid">kk</div>
+</div>
+<div class="innerw">
+<div class="innerw2">
+<div class="inner">
+</div>
+</div>
+</div>
+</html>
